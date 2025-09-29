@@ -1,0 +1,7 @@
+*__pycache__
+bboxes_*
+pkls_*
+plys_*
+val_img_*
+weights_*
+pngs_*

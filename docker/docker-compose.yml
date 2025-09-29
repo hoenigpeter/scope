@@ -1,0 +1,29 @@
+version: '2.4'
+
+services:
+
+  scope:
+    image: scope
+    privileged: true
+    build:
+      context: .
+      dockerfile: dockerfile
+    network_mode: "host"
+    runtime: "nvidia"
+    volumes:
+      - /dev/bus/usb:/dev/bus/usb
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - "../../scope:/root/scope:rw"
+    environment:
+      - ROS_MASTER_URI=http://127.0.0.1:11311
+      - ROS_IP=127.0.0.1
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1
+    command:  bash -c "source catkin_ws/devel/setup.bash;
+              cd /root/scope;
+              ls;
+              rosparam load ./configs/ros_params.yaml;
+              python ros_service.py configs/config_realsense.py"
+
+    stdin_open: true
+    tty: true 

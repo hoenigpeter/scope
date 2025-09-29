@@ -1,0 +1,9 @@
+# Topics
+color_topic: /camera/color/image_raw
+depth_topic: /camera/aligned_depth_to_color/image_raw
+depth_encoding: mono16  # mono16 for realsense and HSR, 32FC1 for ASUS Xtion (Tiago)
+depth_scale: 1000       # 1000 -> depth map encoded in millimeters; 1 -> depth scale encoded in meters
+
+# Frame ids
+color_frame_id: camera_color_optical_frame
+grasp_frame_id: gripper_link # its "gripper link" for tiago and "hand palm link" for HSR
