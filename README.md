@@ -11,7 +11,7 @@ Furthermore, injecting the continuous semantic priors via cross-attention enable
 SCOPE outperforms the current state of the art in synthetically trained category-level object pose estimation, achieving a relative improvement of 31.9\% on the 5$^\circ$5cm metric.
 Additional experiments on two instance-level datasets demonstrate generalization beyond known object categories, enabling grasping of unseen objects from unknown categories with a success rate of up to 100\%.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Clone the repo
 ```
