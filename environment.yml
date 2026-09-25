@@ -1,0 +1,12 @@
+# Linux x86_64. Runtime dependencies are pinned separately in requirements.txt.
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10.19
+  - pip=25.2
+  - cmake=3.31.6
+  - make=4.4.1
+  - git=2.49.0
+  - cxx-compiler=1.9.0
+  - eigen=3.4.0

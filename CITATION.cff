@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: 'Please cite the accompanying SCOPE paper and the NOCS dataset when using this demo.'
+title: 'SCOPE: Semantic Cross-Attention Conditioning for Category-Level Object Pose Estimation'
+type: software
+authors:
+  - family-names: Hönig
+    given-names: Peter
+  - family-names: Weibel
+    given-names: Jean-Baptiste
+  - family-names: Thalhammer
+    given-names: Stefan
+  - family-names: Hirschmanner
+    given-names: Matthias
+  - family-names: Vincze
+    given-names: Markus
+  - family-names: Holzinger
+    given-names: Andreas
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: 'SCOPE: Semantic Cross-Attention Conditioning for Category-Level Object Pose Estimation'
+  authors:
+    - family-names: Hönig
+      given-names: Peter
+    - family-names: Weibel
+      given-names: Jean-Baptiste
+    - family-names: Thalhammer
+      given-names: Stefan
+    - family-names: Hirschmanner
+      given-names: Matthias
+    - family-names: Vincze
+      given-names: Markus
+    - family-names: Holzinger
+      given-names: Andreas
+  journal: Image and Vision Computing
+  volume: '174'
+  start: '106145'
+  year: 2026
+  doi: 10.1016/j.imavis.2026.106145
+  url: https://www.sciencedirect.com/science/article/pii/S0262885626002520

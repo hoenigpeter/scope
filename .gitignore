@@ -1,0 +1,11 @@
+.env/
+.build/
+.bootstrap/
+__pycache__/
+*.pyc
+weights/*.pth
+data/*/
+artifacts/
+outputs/
+
+.*/
